@@ -1,5 +1,5 @@
-# Rakel Stanislav
-## stas.rakel@bk.ru
+* # Rakel Stanislav
+* ## stas.rakel@bk.ru
 * **no work expirience**
 * **I have never written code before**
 * *I've never written code before*
