@@ -1,6 +1,44 @@
-header {
-    background: blue;
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+body {
+    background: #C6D8FF;
 }
-p {
-    font-size: 14px;
+header img {
+    height: 400px;
+    width: 500px;
+}
+header {
+    text-align: center;
+    padding: 30px 0 30px;
+}
+h1 {
+    font-size: 50px;
+}
+ul {
+    padding: 15px 0 15px ;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.info, .contacts {
+    margin-left: 20px;
+}
+.info {
+    padding: 30px 0 30px;
+}
+footer img {
+    height: 300px;
+    width: 300px;
+}
+footer a, p {
+    text-decoration: none;
+    color: #000;
+    font-size: 35px;
+}
+.content {
+    text-align: center;
 }

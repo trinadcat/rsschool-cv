@@ -1,4 +1,4 @@
-* # Rakel Stanislav
+* # Rakel Stas
 * ## stas.rakel@bk.ru
 * **no work expirience**
 * **I have never written code before**
