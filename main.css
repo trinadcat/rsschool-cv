@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+.container {
+    width: 87%;
+	margin: 0 auto;
+}
+header {
+    background: url("img/background.jpg") no-repeat;
+    background-size: 100%;
+    padding-bottom: 253px;
+    overflow: hidden;
+}
+.logo {
+    margin-left: 6.5%;
+}
+.login {
+    margin-right: 6.5%;
+    border-radius: 10px;
+}
+.mobile_info {
+    display: none;
+    justify-content: space-between;
+   
+}
+button {
+    font-family: 'Aleo', sans-serif;
+    border:none;
+    background-color: Transparent;
+    color: #fff;
+    font-size: 16px;
+}
+.info {
+    background-color: #F2785C;
+    opacity: 70%;
+    padding: 35px 0 35px;
+    display: flex;
+    justify-content: space-between;
+}
+nav button{
+    margin-right: 42px;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.login {
+    background: #0D606F;
+    width: 8%;
+}
+.header_info {
+    width: 65%;
+}
+h1 {
+    padding-top: 20px;
+    font-family: 'Aleo' sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+}
+.form-title {
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    position: relative;
+}
+.header_info p{
+    font-family: 'Aleo';
+    color: #fff;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 32px 0 32px;
+}
+.input {
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2785C;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    opacity: 70%;
+    border: none;
+    width: 100%;
+    padding: 32px 0 32px 41px;
+}
+.start {
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    position: absolute;
+    margin-left: auto;
+    padding: 10px 32px;
+    vertical-align: middle;
+    margin: 18px 18px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    cursor: pointer;
+}
+::placeholder {
+    color: #F2785C;
+}
+h2 {
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+    text-align: center;
+}
+.steps {
+    padding-top: 50px;
+}
+.steps_info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.steps {
+    padding-bottom: 100px;
+    text-align: center;
+}
+.step p {
+    margin-top: 30px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
+@media screen and (max-width: 1350px) { 
+    header {
+        padding-bottom: 150px;
+    }
+}
+@media screen and (max-width: 1200px) { 
+    header {
+        padding-bottom: 50px;
+    }
+    .header_info {
+        width: 100%;
+    }
+   
+}
+@media screen and (max-width: 992px) { 
+    .header_info p {
+        display: none;
+    }
+    header {
+        padding-bottom: 10px;
+    }
+    h1 {
+        padding-bottom: 20px;
+    }
+
+}
+@media screen and (max-width: 840px) {
+    .info {
+        display: none;
+    }
+    .mobile_info {
+        display: flex;
+        padding-top: 60px;
+    }
+    .form-title {
+        padding: 130px 0 110px;
+    }
+    h1 {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header_info {
+        width: 100%;
+    }
+    .info {
+        display: none;
+    }
+    .start {
+        padding: 5px 20px;
+        font-size: 11px;
+        margin: 9px 8px;
+        border-radius: 15px;
+    }
+    .input {
+        font-size: 14px;
+        padding: 16px;
+    }
+    .form-title {
+        padding: 70px 0 60px;
+    }
+    .step p {
+        font-size: 10px;
+    }
+    .step img{
+        width: 70px;
+        height: 70px;
+    }
+}
+@media screen and (max-width: 576px) { 
+    header {
+        border-radius: 20px 20px 0 0;
+    }
+    .header_info {
+        width: 100%;
+    }
+    .info {
+        display: none;
+    }
+    .start {
+        padding: 5px 20px;
+        font-size: 11px;
+        margin: 9px 8px;
+        border-radius: 15px;
+    }
+    .input {
+        font-size: 14px;
+        padding: 16px;
+    }
+    .form-title {
+        padding: 70px 0 77px;
+    }
+    .step p {
+        font-size: 10px;
+    }
+    .steps {
+        padding-top: 0px
+    }
+    .step img{
+        width: 70px;
+        height: 70px;
+    }
+}
+@media screen and (max-width: 427px) { 
+    .mobile_info {
+        padding-top: 20px;
+    }
+    .form-title {
+        padding: 50px 0 50px;
+    }
+    .step p {
+        margin-top: 10px;
+    }
+
+}
